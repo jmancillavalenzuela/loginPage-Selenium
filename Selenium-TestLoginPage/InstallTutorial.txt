@@ -1,0 +1,25 @@
+Selenium Test for a Login page.
+First, we need the tools for programing (That means IDE, Java source development kit, and External libraries).
+.- Before install Java, you need to create your Oracle Account (If you have Oracle account, go to next step).
+    <link = https://profile.oracle.com/myprofile/account/create-account.jspx/>
+After the Account creation and validation Via e-Mail, you can process to install JDK 8.
+
+.- Jdk 8. This is the language programing, that you  are going to use.
+    <link = https://www.oracle.com/java/technologies/javase-jdk8-downloads.html#license-lightbox/>
+
+.- Install Eclipse IDE, and follow the page tutorial.
+    <link = "https://www.eclipse.org/downloads/packages/installer"/>
+
+Now you are ready for use our project.
+.- Open the Eclipse Import wizard (e.g. File => Import), select Git => Projects from Git and click Next.
+.- Select “URI” and click Next.
+Now you will have to enter the repository’s location and connection data.
+Entering the URI will automatically fill some fields.
+Complete any other required fields and hit Next.
+If you use GitHub, you can copy the URI from the web page.
+<img = "https://i.stack.imgur.com/gvM1X.png">
+	
+You are ready to Run the first Test !
+ -- Open src/page/login.java
+ then run as -> loginTest():void -> 1. TestNG RUN 
+ from the right panel.
